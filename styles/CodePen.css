@@ -1,0 +1,220 @@
+body {
+   margin: 0px;
+   font-family: 'Roboto', sans-serif;
+   color: white;
+}
+
+.nav-bar {  
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 2px;
+}
+
+.nav-bar > .logo img {
+    height: 100%;
+    width: 220px;
+    margin: 2px 0px -10px 10px;
+    filter: invert(100%)
+}
+
+.nav-bar > .options-wrapper {
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Roboto', sans-serif;
+    margin-left: -20px;
+}
+
+.nav-bar > .options-wrapper > .explore {
+    margin-bottom: -15px;
+}
+
+.nav-bar > .options-wrapper > .explore p {
+    color: #cea135;
+}
+
+.nav-bar > .options-wrapper > .options {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-bar > .options-wrapper > .options a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.nav-bar > .options-wrapper > .options > .spark-wrapper {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    filter: brightness(0.7);
+    margin-left: 10px;
+}
+
+
+.nav-bar > .options-wrapper > .options > .spark-wrapper i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+  }
+
+.nav-bar > .log-sign-wrapper {
+    width: 500px;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-bar > .log-sign-wrapper > .account {
+    background-color: #404040;
+    border: 2px solid #404040;
+    border-radius: 4px;
+    width: 110px;
+}
+.nav-bar > .log-sign-wrapper > .account, .icon {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar > .log-sign-wrapper > .account p {
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.nav-bar > .log-sign-wrapper > .account a {
+    font-size: 1.2em;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar > .log-sign-wrapper > .account i {
+    border: solid #00fa9a;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(45deg);
+}
+
+.nav-bar > .log-sign-wrapper > .account:nth-child(1) {
+    width: 130px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-bar > .log-sign-wrapper > .icon {
+    width: 40px;
+}
+.nav-bar > .log-sign-wrapper > .icon i {
+    font-size: 2em;
+    filter: brightness(0.5);
+}
+
+.page-container {
+    height: 600px;
+    background-image: linear-gradient(-45deg, black, grey);
+    display: flex;
+}
+
+.page-container > .container-wrapper {
+    width: 55%;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.page-container > .container-wrapper > .information-wrapper p {
+    font-size: 2em;
+    color: #d9d9d9;
+}
+
+.page-container > .container-wrapper > .information-wrapper p:nth-child(1) {
+    font-size: 2.5em;
+}
+
+.page-container > .container-wrapper > .information-wrapper strong {
+    color: white;
+}
+
+
+.page-container > .container-wrapper > .spacer {
+    height: 40px;
+}
+
+.page-container > .container-wrapper > .btn-wrapper a {
+    text-decoration: none;
+    font-size: 2.5em;
+    border-radius: 5px;
+    padding: 18px;
+}
+
+.page-container > .container-wrapper > .btn-wrapper a:nth-child(1) {
+    background-color: #00fa9a;
+    color: black;
+    border: 1px solid #00fa9a;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.75);
+}
+
+.page-container > .container-wrapper > .btn-wrapper a:nth-child(2) {
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #1a1a1a;
+    margin-left: 15px;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.75);
+}
+
+.page-container > .sample-wrapper {
+    width: 45%;
+}
+
+.page-container > .sample-wrapper > .text {
+    margin-top: 50px;
+    margin-bottom: -10px;
+    padding-left: 15px;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.page-container > .sample-wrapper > .text span {
+    color: #00cccc;
+}
+
+.page-container > .sample-wrapper > .sample-img img {
+    width: 590px;
+    border-radius: 5px;
+    box-shadow: -8px 6px 26px -2px rgba(8,8,8,0.73);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.footer > .box {
+    background-color: #404040;
+    border: 1px solid;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.footer > .box span {
+    font-size: 1.5em;
+}
+
+.rest {
+    height: 150px;
+    background-color: #262626;
+}
